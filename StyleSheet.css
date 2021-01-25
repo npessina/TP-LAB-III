@@ -1,0 +1,50 @@
+﻿body {
+    background-image: url('imagenes/fondo.jpg');
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+.textoError{
+    color:red;
+}
+
+#tablaCl  {
+    border-collapse: collapse;
+    width: 100%;
+    text-align: center;
+}
+    #tablaCl td {
+        border: 2px solid #8b8b8b;
+        padding: 8px;
+    }
+
+    #tablaCl th {
+        background-color: #1e80ca;
+        border: 2px solid #8b8b8b;
+    }
+
+.scroll {
+    overflow: scroll;
+    height: 400px;
+}
+
+.ancho{
+    max-width:80%;
+}
+
+.ancho-minimo {
+    max-width: 45%;
+}
+
+.padding-modificado {
+    padding: 15px 15px
+}
+
+.centrado{
+    text-align:center;
+}
+
+.ancho-reportes {
+    max-width: 15%;
+}
+
